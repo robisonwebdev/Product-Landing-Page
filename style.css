@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 main{
     display: flex;
     flex-direction: column;
@@ -8,5 +12,34 @@ main{
     background-color: aquamarine;
 }
 
+#form, #products, .product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+/* Products */
+#products {
+    width: 100%;
+    border: 1px solid purple;
+}
 
+.product {
+    margin-bottom: 25px;
+    padding-top: 0;
+    width: 90%;
+    border: 1px solid black;
+}
+
+.product-title {
+    text-align: center;
+    background-color: #808080;
+    margin: 0;
+    padding: 15px 0;
+    width: 100%;
+}
+
+.product-details {
+    padding: 0;
+}
