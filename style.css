@@ -22,7 +22,6 @@ main{
 /* Products */
 #products {
     width: 90%;
-    border: 1px solid purple;
 }
 
 .product {
@@ -41,17 +40,24 @@ main{
 }
 
 .product-img {
-    max-width: 90%;
+    border: 1px solid black;
+    margin: 15px 0;
+    max-width: 280px;
     height: auto;
 }
 
 .product-details {
     list-style: none;
     text-align: center;
+    margin: 0;
     padding: 0;
     width: 280px;
 }
 
 .detail {
     padding-bottom: 10px;
+}
+
+.price {
+    font-size: 20px;
 }
