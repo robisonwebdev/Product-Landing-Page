@@ -21,14 +21,14 @@ main{
 
 /* Products */
 #products {
-    width: 100%;
+    width: 90%;
     border: 1px solid purple;
 }
 
 .product {
     margin-bottom: 25px;
-    padding-top: 0;
-    width: 90%;
+    padding-bottom: 15px;
+    width: 325px;
     border: 1px solid black;
 }
 
@@ -40,6 +40,17 @@ main{
     width: 100%;
 }
 
+.product-img {
+    max-width: 90%;
+    height: auto;
+}
+
 .product-details {
+    text-align: center;
     padding: 0;
+    width: 280px;
+}
+
+.detail {
+    padding-bottom: 10px;
 }
