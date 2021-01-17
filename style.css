@@ -34,6 +34,7 @@ main{
 .product-title {
     text-align: center;
     background-color: #808080;
+    border-bottom: 1px solid black;
     margin: 0;
     padding: 15px 0;
     width: 100%;
