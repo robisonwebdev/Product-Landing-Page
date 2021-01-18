@@ -5,6 +5,7 @@ html {
 body {
     margin: 0;
     background-color: #f8f1f1;
+    font-family: 'Lora', serif;
 }
 
 main, footer, #header, #nav-bar, #features, .feature, #form, #products, .product{
@@ -105,6 +106,10 @@ main {
 }
 
 /* Video */
+#video-div {
+    margin-bottom: 50px;
+}
+
 #video {
     width: 325px;
     height: 350px;
