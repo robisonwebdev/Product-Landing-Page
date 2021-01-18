@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 
-main, footer, #header, #nav-bar, #form, #products, .product{
+main, footer, #header, #nav-bar, #features, .feature, #form, #products, .product{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,6 +32,30 @@ main, footer, #header, #nav-bar, #form, #products, .product{
 
 #header-img p {
     font-size: 24px;
+}
+
+/* Features */
+#features {
+    margin-bottom: 50px;
+    width: 325px;
+}
+
+.feature {
+    margin-top: 35px;
+    text-align: center;
+}
+
+.feature i {
+    display: none;
+}
+
+.feature h3 {
+    font-size: 22px;
+    margin: 0;
+}
+
+.feature p {
+    margin-top: 5px;
 }
 
 /* Products */
