@@ -58,6 +58,12 @@ main, footer, #header, #nav-bar, #features, .feature, #form, #products, .product
     margin-top: 5px;
 }
 
+/* Video */
+#video {
+    width: 325px;
+    height: 350px;
+}
+
 /* Products */
 #products {
     width: 90%;
