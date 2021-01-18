@@ -20,6 +20,20 @@ main, footer, #header, #nav-bar, #form, #products, .product{
     gap: 7px;
 }
 
+#header-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#header-img i {
+    font-size: 48px;
+}
+
+#header-img p {
+    font-size: 24px;
+}
+
 /* Products */
 #products {
     width: 90%;
