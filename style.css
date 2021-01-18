@@ -2,21 +2,20 @@ body {
     margin: 0;
 }
 
-main{
+main, footer, #header, #nav-bar, #form, #products, .product{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    /* TEMP */
-    background-color: aquamarine;
 }
 
-#form, #products, .product {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+/* Header / Navbar */
+#header {
+    gap: 15px;
+}
+
+#nav-bar {
+
 }
 
 /* Products */
