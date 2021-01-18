@@ -34,6 +34,11 @@ main, footer, #header, #nav-bar, #features, .feature, #form, #products, .product
     font-size: 24px;
 }
 
+/* Main */
+main {
+    margin-top: 25px;
+}
+
 /* Features */
 #features {
     margin-bottom: 50px;
