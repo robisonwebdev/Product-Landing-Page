@@ -28,13 +28,12 @@ main, footer, #header, #nav-bar, #features, .feature, #form, #products, .product
 }
 
 .nav-link {
-    color: black;
+    color:#f8f1f1;
     font-size: 17px;
     text-decoration: none;
 }
 
 .nav-link:hover {
-    color: #f8f1f1;
     text-decoration: underline;
 }
 
