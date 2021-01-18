@@ -12,10 +12,12 @@ main, footer, #header, #nav-bar, #form, #products, .product{
 /* Header / Navbar */
 #header {
     gap: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 #nav-bar {
-
+    gap: 7px;
 }
 
 /* Products */
