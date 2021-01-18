@@ -18,7 +18,7 @@ main, footer, #header, #nav-bar, #features, .feature, #form, #products, .product
 /* Header / Navbar */
 #header {
     background-color: #11698e;
-    gap: 15px;
+    gap: 5px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -29,6 +29,7 @@ main, footer, #header, #nav-bar, #features, .feature, #form, #products, .product
 
 .nav-link {
     color: black;
+    font-size: 17px;
     text-decoration: none;
 }
 
