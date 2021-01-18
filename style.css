@@ -39,6 +39,21 @@ main {
     margin-top: 25px;
 }
 
+/* Newletter */
+#form {
+    gap: 12px;
+}
+
+#form label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#submit {
+    border: 1px solid black;
+    padding: 10px 15px;
+}
+
 /* Features */
 #features {
     margin-bottom: 50px;
