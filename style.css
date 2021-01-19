@@ -184,11 +184,11 @@ footer a:hover {
 }
 
 @media only screen and (min-width: 765px) {
-    #header, #nav-bar {
+    #header, #nav-bar, #products {
         flex-direction: row;
     }
 
-    #header{
+    #header, #products {
         justify-content: space-between;
         padding-left: 10px;
         padding-right: 15px;
