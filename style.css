@@ -183,18 +183,38 @@ footer a:hover {
     font-weight: bold;
 }
 
-@media only screen and (min-width: 765px) {
-    #header, #nav-bar, #products {
+/* @media */
+@media only screen and (min-width: 980px) {
+    #header, #nav-bar {
         flex-direction: row;
     }
 
-    #header, #products {
+    #header {
         justify-content: space-between;
         padding-left: 10px;
         padding-right: 15px;
     }
 
+    #products {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: normal;
+        gap: 15px;
+    }
+
+    .product {
+        flex: 1;
+        justify-content: space-between;
+        max-width: 400px;
+    }
+
     #nav-bar {
         gap: 20px;
+    }
+
+    #video {
+        width: 650px;
+        height: 350px;
     }
 }
