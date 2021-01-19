@@ -195,6 +195,37 @@ footer a:hover {
         padding-right: 15px;
     }
 
+    #nav-bar {
+        gap: 20px;
+    }
+
+    #features {
+        width: 650px;
+    }
+
+    .feature {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 50px;
+        margin: 35px 0;
+        width: 100%;
+    }
+
+    .feature i {
+        display: flex;
+        color: #19456b;
+        font-size: 48px;
+    }
+
+    .feature-details {
+        display: inline;
+        flex-direction: column;
+        justify-content: start;
+        text-align: start;
+    }
+
     #products {
         display: flex;
         flex-direction: row;
@@ -207,11 +238,7 @@ footer a:hover {
         flex: 1;
         justify-content: space-between;
         max-width: 400px;
-    }
-
-    #nav-bar {
-        gap: 20px;
-    }
+    }    
 
     #video {
         width: 650px;
